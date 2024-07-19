@@ -6,59 +6,85 @@
     <title>Cuki Chang's Resume</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #f9f9f9;
             color: #333;
         }
         .container {
             width: 80%;
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
             padding: 20px;
-            background-color: #fff;
+            background: #fff;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
-            color: #222;
-        }
-        .section {
+        header {
+            text-align: center;
             margin-bottom: 20px;
         }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #eee;
+        }
+        header h1 {
+            margin: 10px 0;
+            color: #333;
+        }
+        header p {
+            margin: 5px 0;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
         .section h2 {
-            border-bottom: 2px solid #222;
+            border-bottom: 3px solid #4CAF50;
             padding-bottom: 5px;
-            margin-bottom: 10px;
-        }
-        .contact-info p, .experience p, .education p, .skills ul {
-            margin: 5px 0;
-        }
-        .skills ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .skills li {
-            background: #e0e0e0;
-            padding: 5px;
-            margin: 5px 0;
-            border-radius: 5px;
+            margin-bottom: 15px;
+            color: #4CAF50;
         }
         .experience-item, .education-item {
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-left: 4px solid #4CAF50;
+            background: #f4f4f4;
+            border-radius: 5px;
         }
         .experience-item h3, .education-item h3 {
             margin: 0;
-            color: #555;
+            color: #333;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            background: #4CAF50;
+            color: #fff;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 5px;
+            text-align: center;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header class="section contact-info">
+        <header>
+            <img src="your-photo.jpg" alt="Cuki Chang">
             <h1>Cuki Chang</h1>
-            <p>Email: cuki.chang@example.com</p>
+            <p>Email: <a href="mailto:cuki.chang@example.com">cuki.chang@example.com</a></p>
             <p>Phone: (555) 123-4567</p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/cuki-chang" target="_blank">linkedin.com/in/cuki-chang</a></p>
         </header>
