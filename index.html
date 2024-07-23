@@ -77,14 +77,13 @@
         a:hover {
             text-decoration: underline;
         }
-        .globe {
+        .map {
             text-align: center;
             margin-top: 20px;
         }
-        /* Style adjustments for the ClustrMaps globe */
-        .globe iframe {
-            width: 100px; /* Adjust the width of the globe */
-            height: 100px; /* Adjust the height of the globe */
+        .map iframe {
+            width: 300px; /* Adjust the width of the map */
+            height: 200px; /* Adjust the height of the map */
             border: none;
         }
     </style>
@@ -141,12 +140,10 @@
             </ul>
         </section>
         
-        <div class="globe">
+        <div class="map">
             <h2>Visitor Locations</h2>
-            <div id="clustrmaps-widget"></div>
+            <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=WBcQ1Wz8vwZWpfTQdGN63HngPespl3LajEi5ykVoh3Y&cl=ffffff&w=a"></script>
         </div>
     </div>
-    
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=WBcQ1Wz8vwZWpfTQdGN63HngPespl3LajEi5ykVoh3Y"></script>
 </body>
 </html>
